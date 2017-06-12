@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/view_title_container"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/view_title_container">
+
+            <ImageView
+                style="@style/imageView_ofBackTitle"
+                android:id="@+id/iv_alp_back" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/textView_title"
+                android:textSize="18sp"
+                android:text="修改手势密码" />
+
+            <TextView
+                android:id="@+id/tv_reset"
+                style="@style/textView_ofRightTitle"
+                android:text="重置" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:id="@+id/gesturepwd_setting_preview"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/gesture_create_grid_bg"
+        android:orientation="vertical"
+        android:padding="5.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="6.0dip">
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_0"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_1"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_2"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="6.0dip"
+            android:layout_marginTop="6.0dip">
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_3"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_4"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_5"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="6.0dip"
+            android:layout_marginTop="6.0dip">
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_6"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_7"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+
+            <View
+                android:id="@+id/gesturepwd_setting_preview_8"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:background="@drawable/trans" />
+        </LinearLayout>
+    </LinearLayout>
+    "
+
+    <View
+        android:id="@+id/gesturepwd_creat_gap2"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@+id/gesturepwd_create_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="0.0dip"
+        android:gravity="center_horizontal"
+        android:shadowColor="#b3000000"
+        android:shadowRadius="1.0"
+        android:text="绘制解锁图案"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/gesturepwd_creat_gap3"
+        android:layout_width="fill_parent"
+        android:layout_height="8.0dip"
+        android:layout_weight="1.0" />
+
+    <com.example.lockdemo.lock.LockPatternView
+        android:id="@+id/gesturepwd_create_lockview"
+        android:layout_width="288.0dip"
+        android:layout_height="288.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip" />
+
+    <View
+        android:id="@+id/gesturepwd_creat_gap4"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_weight="1.0" />
+
+</LinearLayout>

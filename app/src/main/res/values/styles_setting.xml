@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--setting页面每个item的textView-->
+    <style name="item_textView">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+    <!--包含每个标题view-->
+    <style name="view_title_container">
+        <item name="android:background">@color/Black</item>
+        <!--<item name="android:background">@drawable/main_topbg</item>-->
+        <!--<item name="android:orientation">horizontal</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">66dp</item>
+    </style>
+
+
+
+    <!--显示标题的textView-->
+    <style name="textView_title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--显示标题的textView-->
+    <style name="textView_sub_title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="imageView_ofBackTitle">
+        <item name="android:src">@drawable/mini_webview_back</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <!--<item name="android:layout_weight">2</item>-->
+    </style>
+
+    <!--标题左侧的文本-->
+    <style name="textView_ofLeftTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--标题右侧侧的文本-->
+    <style name="textView_ofRightTitle" parent="textView_ofLeftTitle">
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- 设置联系人中的信息的textView -->
+    <style name="textView_contactInfo">
+        <item name="android:layout_width">197dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <!--按钮文本风格-->
+    <style name="button_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!--“详情”按钮风格-->
+    <style name="button_details" parent="button_Text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:text">详情</item>
+    </style>
+
+</resources>

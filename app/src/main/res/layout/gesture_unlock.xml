@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gesturepwd_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/White"
+        android:text="DEMO" />
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="5.0dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@+id/gesturepwd_unlock_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="0.0dip"
+        android:gravity="center_horizontal"
+        android:text="用户帐号"
+        android:textColor="@android:color/white"
+        android:shadowColor="#b3ffffff"
+        android:shadowRadius="1.0"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@+id/gesturepwd_unlock_failtip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="0.0dip"
+        android:gravity="center_horizontal"
+        android:shadowColor="#b3ffffff"
+        android:shadowRadius="1.0"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <com.example.lockdemo.lock.LockPatternView
+        android:id="@+id/gesturepwd_unlock_lockview"
+        android:layout_width="300.0dip"
+        android:layout_height="300.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0.0dip" />
+
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_weight="1.0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/gesturepwd_unlock_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:gravity="right"
+            android:text="忘记手势密码"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:shadowColor="#e0ffffff"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/gesturepwd_change_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:gravity="left"
+            android:text="登录其他帐号"
+            android:textColor="@android:color/white"
+            android:shadowColor="#e0ffffff"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@id/gesturepwd_creat_gap1"
+        android:layout_width="fill_parent"
+        android:layout_height="85.0dip"
+        android:layout_weight="1.0" />
+
+</LinearLayout>
